@@ -43,7 +43,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="3;URL='circleHome.php'">
+<meta http-equiv="refresh" content="10;URL='circleHome.php'">
 <title>APDCL</title>
 <link href="css/w3.css" type="text/css" rel="stylesheet">
 <link href="css/style.css" type="text/css" rel="stylesheet">

@@ -56,12 +56,12 @@
 				mysqli_query($link,$str5);
 				
 				//update division storge stock
-				$str6="Select stock from storage where dept='$Central Store' and mid='$mid'";
+				$str6="Select stock from storage where dept='Central Store' and mid='$mid'";
 				$rs=mysqli_query($link,$str6);
 				$r=mysqli_fetch_array($rs);
 				$q=$r[0];
 				$q=$q-$iq;
-				$str7="Update storage set stock='$q' where dept='$Central Store' and mid='$mid'";
+				$str7="Update storage set stock='$q' where dept='Central Store' and mid='$mid'";
 				mysqli_query($link,$str7); 
 				//$x=1;
 				
